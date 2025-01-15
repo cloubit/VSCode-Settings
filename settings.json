@@ -1,0 +1,62 @@
+// Individuelle Settings für Visual Studio Code
+
+{
+// Arbeitsumgebung anpassen
+  "workbench.tree.indent": 20, // Einrückung im Verzeichnisbaum vanpassen
+  "workbench.startupEditor": "none", // Startup Editor ausschalten
+  "update.showReleaseNotes": false, // Schaltet die eingeblendete Releasenote nach einer Softwareaktualisierung aus (false), (true = default)
+  "workbench.editor.titleScrollbarSizing": "large", // Erweitert den Weg beim scrollen
+  "workbench.iconTheme": "material-icon-theme", // Ausgewähltes Icon Theme aktivieren, Theme muss eventuell im Vorfeld herungergeladen werden
+  "workbench.colorTheme": "Default Dark+", // Ausgewähltes Color Theme aktivieren, Theme muss eventuell im Vorfeld heruntergeladen werden
+  "workbench.colorCustomizations": { // Benutzerspezifische Farbeinstellungen
+    "terminal.foreground": "#00ff00",
+    "terminal.background": "#000055",
+    "terminalCursor.foreground": "#ff9900"
+  },
+
+// Editor und Datei Einstellungen anpassen
+  "editor.tabSize": 2, // Gibt bei Tabulator die Anzahl Zeichen einrückender Zeichen an
+  "editor.fontSize": 22, // Fontgrösse einstellen. Ideale Font Grösse für Pressentationen und grosse Monitore ist 22
+  "terminal.integrated.fontSize": 22, //Schriftgrösse für Terminal einstellen
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false, // Schaltet die Minimap rechts aus (false), (true = default)
+  "editor.stickyScroll.enabled": false, // Schaltet das StickyScrolling aus (false), (true = default)
+  "editor.guides.bracketPairs": "active", // Aktiviert Verbindungslinien zwischen aktivierten Klammern
+  "editor.guides.bracketPairsHorizontal": "active", // Aktiviert horizontale Verbindungslinien zuischen Klammern
+  "files.insertFinalNewline": true, // fügt eine leere Linie am Ende einer Datei ein
+  "files.trimFinalNewlines": true, // Verkürzt überschüssige leere Linien am ende einer Datei auf eine
+  "files.trimTrailingWhitespace": true, // Löscht vorhandene Leerzeichen am Ende einer Zeile
+  "files.autoSave": "onWindowChange", // Speichert beim Dateiwechsel die Datei automatisch
+  "html.hover.documentation": false, // HTML Hover Dokumentation auschalten
+  "html.hover.references": false, // HTML Hover Referenzen ausschalten
+  "css.hover.documentation": false, // CSS Hover Dokumentation ausschalten
+  "css.hover.references": false, // CSS Hover Referenzen auschalten
+  "less.hover.documentation": false, // Less Hover Dokumentation auschalten
+  "less.hover.references": false, // Less Hover Referenzen ausschalten
+  "scss.hover.documentation": false, // Scss Hover Dokumentation auschalten
+  "scss.hover.references": false, // Scss Hover Referenzen ausschalten
+
+// Terminal Einstellungen
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.defaultProfile.windows": "Custom CMD-Shell",
+  "terminal.integrated.profiles.windows": {
+    "Custom CMD-Shell": {
+        "path": "cmd.exe",
+        "args": ["/K", "C:\\Scripts\\start.cmd"]
+        },
+    "Custom PowerShell": {
+        "path": "powershell.exe",
+        "args": ["-noexit", "-file", "C:\\Scripts\\start.ps1"]
+        },
+    "Custom Git-Bash-Shell": {
+        "path": "C:\\Git\\bin\\bash.exe"
+        }
+    },
+
+// Einstellungen zu Erweiterungen
+  "git.path": ".\\Git\\bin\\git.exe", // Pfad zu Git; Ideal wenn Git nur als PortableApp installiert wurde
+  "liveServer.settings.donotShowInfoMsg": true, // Mehr Infos unter: https://github.com/ritwickdey/vscode-live-server
+  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}", // Mehr Infos unter: https://github.com/microsoft/vscode-docker
+}
