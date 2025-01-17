@@ -16,8 +16,8 @@
 
 // Editor und Datei Einstellungen anpassen
   "editor.tabSize": 2, // Gibt bei Tabulator die Anzahl Zeichen einrückender Zeichen an
-  "editor.fontSize": 22, // Fontgrösse einstellen. Ideale Font Grösse für Pressentationen und grosse Monitore ist 22
-  "terminal.integrated.fontSize": 22, //Schriftgrösse für Terminal einstellen
+  "editor.fontSize": 16, // Fontgrösse für Editor einstellen
+  "terminal.integrated.fontSize": 16, //Schriftgrösse für Terminal einstellen
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.renderWhitespace": "all",
@@ -38,7 +38,7 @@
   "scss.hover.documentation": false, // Scss Hover Dokumentation auschalten
   "scss.hover.references": false, // Scss Hover Referenzen ausschalten
 
-// Terminal Einstellungen
+// Terminal Profil Einstellungen
   "terminal.integrated.sendKeybindingsToShell": true,
   "terminal.integrated.defaultProfile.windows": "Custom CMD-Shell",
   "terminal.integrated.profiles.windows": {
@@ -58,5 +58,5 @@
 // Einstellungen zu Erweiterungen
   "git.path": ".\\Git\\bin\\git.exe", // Pfad zu Git; Ideal wenn Git nur als PortableApp installiert wurde
   "liveServer.settings.donotShowInfoMsg": true, // Mehr Infos unter: https://github.com/ritwickdey/vscode-live-server
-  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}", // Mehr Infos unter: https://github.com/microsoft/vscode-docker
+  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}" // Mehr Infos unter: https://github.com/microsoft/vscode-docker
 }
