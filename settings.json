@@ -2,9 +2,9 @@
 
 {
 // Arbeitsumgebung anpassen
-  "workbench.tree.indent": 20, // Einrückung im Verzeichnisbaum vanpassen
+  "workbench.tree.indent": 20, // Einrückung im Verzeichnisbaum anpassen
   "workbench.startupEditor": "none", // Startup Editor ausschalten
-  "update.showReleaseNotes": false, // Schaltet die eingeblendete Releasenote nach einer Softwareaktualisierung aus (false), (true = default)
+  "update.showReleaseNotes": false, // Schaltet die eingeblendete Releasenote nach einer Softwareaktualisierung aus (default = true)
   "workbench.editor.titleScrollbarSizing": "large", // Erweitert den Weg beim scrollen
   "workbench.iconTheme": "material-icon-theme", // Ausgewähltes Icon Theme aktivieren, Theme muss eventuell im Vorfeld herungergeladen werden
   "workbench.colorTheme": "Default Dark+", // Ausgewähltes Color Theme aktivieren, Theme muss eventuell im Vorfeld heruntergeladen werden
@@ -21,8 +21,8 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.renderWhitespace": "all",
-  "editor.minimap.enabled": false, // Schaltet die Minimap rechts aus (false), (true = default)
-  "editor.stickyScroll.enabled": false, // Schaltet das StickyScrolling aus (false), (true = default)
+  "editor.minimap.enabled": false, // Schaltet die Minimap rechts aus (default = true)
+  "editor.stickyScroll.enabled": false, // Schaltet das StickyScrolling aus (default = true)
   "editor.guides.bracketPairs": "active", // Aktiviert Verbindungslinien zwischen aktivierten Klammern
   "editor.guides.bracketPairsHorizontal": "active", // Aktiviert horizontale Verbindungslinien zuischen Klammern
   "files.insertFinalNewline": true, // fügt eine leere Linie am Ende einer Datei ein
