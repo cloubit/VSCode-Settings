@@ -56,7 +56,7 @@
     },
 
 // Einstellungen zu Erweiterungen
-  "git.path": ".\\Git\\bin\\git.exe", // Pfad zu Git; Ideal wenn Git nur als PortableApp installiert wurde
+  "git.path": "C:\\Git\\bin\\git.exe", // Pfad zu Git; Ideal wenn Git nur als PortableApp installiert wurde
   "liveServer.settings.donotShowInfoMsg": true, // Mehr Infos unter: https://github.com/ritwickdey/vscode-live-server
   "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}" // Mehr Infos unter: https://github.com/microsoft/vscode-docker
 }
