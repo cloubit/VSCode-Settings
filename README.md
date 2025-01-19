@@ -30,8 +30,9 @@ Die setting.json hat für nachfolgende Erweiterungen Einstellungen hinterlegt, d
 - HTML CSS Support von ecmel
 - JavaScript (ES6) code snippets von charalampos karypidis
 - PowerShell von Microsoft
+
 ## Lizenz
-    License: MIT License / Copyright (c) 2024 Cloubit GmbH
+    License: MIT License / Copyright (c) 2025 Cloubit GmbH
 
 Change Log:
-    2024-01-17: Initial Release
+    2025-01-19: Initial Release
